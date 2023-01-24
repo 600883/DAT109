@@ -11,9 +11,7 @@ public class Terning {
 	public int kastTerning() {
 			
 		antOyne = (int)(Math.random()* 6 + 1);
-	
-		int  flyttSpiller = spiller.getRute() + antOyne;
 		
-		return spiller.getRute();
+		return antOyne;
 	}
 }
