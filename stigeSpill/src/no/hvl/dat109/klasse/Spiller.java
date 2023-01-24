@@ -5,8 +5,13 @@ public class Spiller {
 	private int id;
 	private int rute = 0;
 	
+	public Spiller() {
+		
+	}
+	
 	public Spiller(int id, int rute) {
 		this.id = id;
+		this.rute = rute;
 	}
 	
 	public void setId(int id) {

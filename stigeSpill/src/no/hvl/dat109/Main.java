@@ -1,6 +1,6 @@
 package no.hvl.dat109;
 
-public class Hallo {
+public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("Hallo");
