@@ -1,6 +1,8 @@
 package no.hvl.dat109;
 
-public class Main {
+import javafx.application.Application;
+
+public class Main extends Application {
 
 	public static void main(String[] args) {
 		System.out.println("Hallo");

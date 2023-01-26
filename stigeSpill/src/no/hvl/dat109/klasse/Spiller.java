@@ -64,7 +64,7 @@ public class Spiller {
 	 * flytter spilleren et hvis antall ruter. Henter først brikken sin rute den står på. Så kjører kastTerning() og returner
 	 * getRute() + kastTerning()	
 	 */
-	public int flytt(int antOyne) {
+	public int flytt() {
 		
 		return spiller.getRute() + terning.kastTerning();
 		
@@ -75,7 +75,14 @@ public class Spiller {
 	/*
 	 * metoden setter spilleren tilbake til rute 0 hvis han får tre 6'ere på rad
 	 */
-	public int gaaTilbake(int antOyne) {
+	public int gaaTilbake() {
+		
+		int antOyne = 0;
+		
+		while(terning.kastTerning() == 6) {
+			antOyne += 6;
+			terning.kastTerning();
+		} 
 		
 		if(antOyne == 18) {
 			rute = 0;
