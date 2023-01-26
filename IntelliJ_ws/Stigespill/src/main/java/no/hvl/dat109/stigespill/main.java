@@ -19,6 +19,8 @@ public class main extends Application {
     private
     private parent createContent() {
 
+
+
         StackPane root = new StackPane();
         root.setPrefSize(width * Tile_size, (height * Tile_size) + 80);
         return root;
