@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author sivertsaeter
+ *
+ */
+module Monpolspillet {
+}
